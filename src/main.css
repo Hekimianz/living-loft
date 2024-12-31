@@ -43,7 +43,7 @@ body {
 
 nav {
   background: #2d4c4a;
-  height: 50px;
+  height: 60px;
   color: #f5f1e8;
   font-size: 1.4rem;
   display: flex;
@@ -54,7 +54,7 @@ nav {
 }
 
 nav img {
-  height: 60%;
+  height: 70%;
 }
 
 nav ul {
