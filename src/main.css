@@ -1,0 +1,30 @@
+:root {
+  --beige: #f5f1e8;
+  --teal: #467b7e;
+  --clay: #d6a56d;
+  --green: #a2b29f;
+  --grey: #2e2f2f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  font-size: 64.5%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--beige);
+}
+
+:focus {
+  outline: 3px solid var(--teal);
+}
