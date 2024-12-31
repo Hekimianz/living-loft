@@ -1,5 +1,5 @@
 const Store = () => {
-  return <h1>This is the store page!</h1>;
+  return <div className="main--cont">This is the store page!</div>;
 };
 
 export default Store;

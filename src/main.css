@@ -28,3 +28,73 @@ body {
 :focus {
   outline: 3px solid var(--teal);
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main--cont {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background: #2d4c4a;
+  height: 50px;
+  color: #f5f1e8;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 0 15px;
+}
+
+nav img {
+  height: 60%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+  gap: 10px;
+}
+
+nav li a {
+  color: #f5f1e8;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+nav li a:hover {
+  color: var(--clay);
+}
+
+nav li a:focus {
+  outline: none;
+}
+
+footer {
+  background: var(--grey);
+  color: #f5f1e8;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+footer a {
+  color: var(--clay);
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--green);
+}

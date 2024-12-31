@@ -1,5 +1,6 @@
+import styles from "./contact.module.css";
 const Contact = () => {
-  return <h1>This is the contact page!</h1>;
+  return <div className="main--cont">This is the contact page!</div>;
 };
 
 export default Contact;
