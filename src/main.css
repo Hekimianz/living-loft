@@ -71,6 +71,11 @@ nav li a {
   transition: 0.3s all ease;
 }
 
+nav li a.active {
+  border-bottom: 1px solid var(--clay);
+  color: var(--clay);
+}
+
 nav li a:hover {
   color: var(--clay);
 }
