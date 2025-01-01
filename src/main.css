@@ -40,6 +40,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  flex: 1;
 }
 
 nav {
@@ -131,6 +132,8 @@ footer {
   font-weight: 300;
   text-align: center;
   font-family: "Poppins", sans-serif;
+
+  width: 100%;
 }
 
 footer a {
