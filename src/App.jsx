@@ -28,7 +28,7 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
           <Route path="cart" element={<Cart cart={cart} setCart={setCart} />} />
         </Routes>
-        <CartBtn />
+        <CartBtn cart={cart} />
         <Footer />
       </BrowserRouter>
     </StrictMode>

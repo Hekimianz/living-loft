@@ -65,7 +65,7 @@
   color: var(--teal);
   background-color: var(--beige);
   border: 1px solid var(--teal);
-  border-radius: 0.4rem;
+  border-radius: 4px;
   transition: all 0.2s ease;
 }
 
@@ -73,4 +73,41 @@
   background-color: var(--teal);
   color: var(--beige);
   border-color: var(--clay);
+}
+
+.quantityCont {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  align-self: center;
+}
+
+.quantityCont button {
+  cursor: pointer;
+  padding: 0.2rem;
+  background-color: var(--beige);
+  border: 1px solid var(--teal);
+  border-radius: 4px;
+  height: 20px;
+  transition: all 0.2s ease;
+}
+
+.quantityCont button:hover {
+  background-color: #ebe6de;
+  transform: scale(1.05);
+}
+
+.quantityCont button img {
+  height: 100%;
+}
+
+.quantityCont span {
+  color: var(--teal);
+  font-size: 1rem;
+
+  border: 1px solid var(--green);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }

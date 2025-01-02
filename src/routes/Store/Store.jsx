@@ -145,6 +145,9 @@ const Store = ({ cart, setCart }) => {
                   price={product.price}
                   rating={product.rating}
                   id={product.id}
+                  setCart={setCart}
+                  cart={cart}
+                  thumbnail={product.thumbnail}
                 />
               );
             })}
