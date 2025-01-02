@@ -108,7 +108,7 @@ nav li a:focus {
   border: 1px solid #d6a56d;
   background-color: var(--teal);
   position: fixed;
-  top: 100px;
+  top: 120px;
   right: 10px;
   transition: 0.3s all;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;

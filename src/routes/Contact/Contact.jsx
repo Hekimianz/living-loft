@@ -9,7 +9,6 @@ const Contact = () => {
       <div className={styles.main}>
         <h1>We'd Love to Hear From You!</h1>
         <div className={styles.contactContainer}>
-          {/* Form Section */}
           <form
             className={styles.form}
             onSubmit={(e) => {
@@ -51,7 +50,6 @@ const Contact = () => {
             </button>
           </form>
 
-          {/* Contact Info Section */}
           <div className={styles.contactInfo}>
             <h2>Contact Information</h2>
             <p>
