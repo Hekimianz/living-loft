@@ -14,7 +14,8 @@ const CartBtn = ({ cart }) => {
 
   return (
     <>
-      {location.pathname === "/store" && (
+      {(location.pathname === "/store" ||
+        location.pathname.split("/")[1] === "product") && (
         <Link to="cart">
           <button id="cartBtn">
             {cart.length >= 1 && <span id="cartQuant">{cartLength()}</span>}

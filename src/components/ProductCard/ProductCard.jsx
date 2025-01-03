@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import styles from "./productCard.module.css";
 import star from "../../assets/star.png";
 import up from "../../assets/up.png";
@@ -13,6 +14,7 @@ const ProductCard = ({
   cart,
   thumbnail,
 }) => {
+  const navigate = useNavigate();
   const handleAddToCart = () => {
     setCart((prev) => [...prev, { title, price, id, thumbnail, quantity: 1 }]);
   };
@@ -41,8 +43,16 @@ const ProductCard = ({
     );
   };
 
+  const handleCardClick = (e) => {
+    if (e.target.localName !== "button") {
+      if (e.target.parentNode.localName !== "button") {
+        navigate("/product/" + id);
+      }
+    }
+  };
+
   return (
-    <div className={styles.productCard}>
+    <div className={styles.productCard} onClick={handleCardClick}>
       <img className={styles.image} src={images[0]} />
       <h2 className={styles.title}>{title}</h2>
       <div>
