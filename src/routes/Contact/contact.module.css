@@ -80,14 +80,6 @@
   max-width: 800px;
 }
 
-@media (min-width: 768px) {
-  .contactContainer {
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 4rem;
-  }
-}
-
 .form {
   width: 100%;
   max-width: 400px;
